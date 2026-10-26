@@ -1,0 +1,27 @@
+{
+	title: "Ritual of Magnetism",
+	icon: "minecraft:book",
+	x: 8.0d,
+	y: -1.4d,
+	text: [
+		"Pulls ores from the ground into its range.\n\nIncrease radius by placing blocks under the Master Ritual Stone:\n\n§2-§r Block of Iron: §67\n§2-§r Block of Gold: §615\n§2-§r Block of Diamond: §631\n§2-§r Aurora Block: §663\n§2-§r Castle Rune Brick: §6127\n§2-§r Crystalline Alloy Block: §6255"
+	],
+	dependencies: [
+		"5eb2c3ea",
+		"6a44d25c",
+		"f45af488"
+	],
+	tasks: [
+		{
+			uid: "ebd17883",
+			type: "checkmark"
+		}
+	],
+	rewards: [
+		{
+			uid: "9780d589",
+			type: "xp_levels",
+			xp_levels: 8
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	x: 5.166666666666667d,
+	y: 4.5d,
+	text: [
+		"Tier 1 Blood Orb. Stores a little bit of life force."
+	],
+	dependencies: [
+		"6a6dc36e"
+	],
+	tasks: [
+		{
+			uid: "d49b136c",
+			type: "item",
+			items: [
+				{
+					id: "bloodmagic:blood_orb",
+					tag: {
+						orb: "bloodmagic:weak"
+					}
+				}
+			]
+		}
+	],
+	rewards: []
+}

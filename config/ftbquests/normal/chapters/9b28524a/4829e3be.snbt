@@ -1,0 +1,23 @@
+{
+	x: 4.0d,
+	y: 0.5d,
+	text: [
+		"A stronger, more in-depth Divination Sigil.\n\nSee the Sanguine Scientiem for details."
+	],
+	dependencies: [
+		"1b9ee0ad"
+	],
+	tasks: [
+		{
+			uid: "7dcf5f9f",
+			type: "item",
+			items: [
+				{
+					item: "bloodmagic:sigil_seer"
+				}
+			],
+			ignore_nbt: 1b
+		}
+	],
+	rewards: []
+}

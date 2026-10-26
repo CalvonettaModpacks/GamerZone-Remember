@@ -1,0 +1,95 @@
+{
+	title: "Cables and Voltages",
+	icon: {
+		id: "ic2:cable",
+		tag: {
+			type: 4b,
+			insulation: 1b
+		},
+		Damage: 4s
+	},
+	x: 0.8d,
+	y: -0.4d,
+	text: [
+		"Items and machines in IndustrialCraft 2 are grouped into tiers based on the maximum EU it can output or receive per tick (EU/t).\n\nFor example, trying to power a Macerator (tier 1) with 128 EU/t (tier 2) will result in the Macerator exploding, destroying it.\nPowering a machine or storage unit with too much EU/t will result in the machine exploding.\n\nTransformer Upgrades can be used to increase the power tier of a machine by power tier per upgrade item. Different cables have different maximum allowed voltages and energy loss over distance.\n\n§6Voltage Tiers:§r\n1. LV (Low Voltage) - up to 32 EU/t (Tin Cable, Copper Cable)\n2. MV (Medium Voltage) - up to 128 EU/t (Copper Cable)\n3. HV (High Voltage) - up to 512 EU/t (Gold Cable)\n4. EV (Extreme Voltage) - up to 2048 EU/t (HV Cable)\n\nGlass Fibre Cable can handle up to 8192 EU/t with very low energy loss over distance.\n\nIt is also possible to use Mekanism Universal Cables to transfer EU without worrying about voltage tiers."
+	],
+	dependencies: [
+		"b522c8b8"
+	],
+	tasks: [
+		{
+			uid: "9a4853e4",
+			type: "item",
+			items: [
+				{
+					Damage: 72s,
+					tag: {},
+					id: "ic2:te"
+				},
+				{
+					Damage: 73s,
+					tag: {},
+					id: "ic2:te"
+				},
+				{
+					Damage: 74s,
+					tag: {},
+					id: "ic2:te"
+				},
+				{
+					Damage: 75s,
+					tag: {},
+					id: "ic2:te"
+				}
+			],
+			ignore_nbt: 1b
+		},
+		{
+			uid: "4263b1c7",
+			type: "item",
+			items: [
+				{
+					Damage: 4s,
+					tag: {
+						type: 4b,
+						insulation: 1b
+					},
+					id: "ic2:cable"
+				},
+				{
+					tag: {
+						type: 0b,
+						insulation: 1b
+					},
+					id: "ic2:cable"
+				},
+				{
+					Damage: 2s,
+					tag: {
+						type: 2b,
+						insulation: 2b
+					},
+					id: "ic2:cable"
+				},
+				{
+					Damage: 3s,
+					tag: {
+						type: 3b,
+						insulation: 3b
+					},
+					id: "ic2:cable"
+				},
+				{
+					Damage: 1s,
+					tag: {
+						type: 1b,
+						insulation: 0b
+					},
+					id: "ic2:cable"
+				}
+			],
+			ignore_nbt: 1b
+		}
+	],
+	rewards: []
+}

@@ -1,0 +1,24 @@
+{
+	x: 5.7d,
+	y: 4.3d,
+	text: [
+		"The CF Sprayer can be used to spray Construction Foam. Construction Foam can encase IC2 cables to form facades. It can now create up to §a32§r blocks instead of 10."
+	],
+	dependencies: [
+		"2231f97b"
+	],
+	tasks: [
+		{
+			uid: "e915d192",
+			type: "item",
+			items: [
+				{
+					item: "ic2:foam_sprayer"
+				}
+			],
+			ignore_damage: 1b,
+			ignore_nbt: 1b
+		}
+	],
+	rewards: []
+}

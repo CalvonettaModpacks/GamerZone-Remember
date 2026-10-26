@@ -1,0 +1,34 @@
+{
+	x: 5.55d,
+	y: 5.85d,
+	text: [
+		"§6Lava Sigil§r is considered a §nhuge lava reservoir§r.\nThis allows you to put it in machines that use Lava as fuel. For example, the §nGeothermal Generator§r."
+	],
+	dependencies: [
+		"3bf12c63"
+	],
+	size: 0.75d,
+	tasks: [
+		{
+			uid: "51daee8e",
+			type: "item",
+			items: [
+				{
+					id: "bloodmagic:sigil_lava",
+					tag: {
+						binding: {
+							name: "Krutoy242",
+							id: {
+								L: -7015483457058418587L,
+								M: -2145320399625435168L
+							}
+						}
+					}
+				}
+			],
+			ignore_damage: 1b,
+			ignore_nbt: 1b
+		}
+	],
+	rewards: []
+}

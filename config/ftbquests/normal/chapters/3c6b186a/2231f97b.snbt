@@ -1,0 +1,22 @@
+{
+	x: 5.7d,
+	y: 3.1d,
+	text: [
+		"The Fluid/Solid Canning Machine is mainly used to make Nuclear Fuel Rods and Speed Upgrades."
+	],
+	dependencies: [
+		"80c99c37"
+	],
+	tasks: [
+		{
+			uid: "7d59c5ca",
+			type: "item",
+			items: [
+				{
+					item: "ic2:te 1 42"
+				}
+			]
+		}
+	],
+	rewards: []
+}

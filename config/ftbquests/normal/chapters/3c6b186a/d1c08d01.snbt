@@ -1,0 +1,22 @@
+{
+	x: 6.5d,
+	y: 0.8d,
+	text: [
+		"The Compressor lets you craft various compressed items, most notably Dense plates."
+	],
+	dependencies: [
+		"80c99c37"
+	],
+	tasks: [
+		{
+			uid: "d7332c46",
+			type: "item",
+			items: [
+				{
+					item: "ic2:te 1 43"
+				}
+			]
+		}
+	],
+	rewards: []
+}

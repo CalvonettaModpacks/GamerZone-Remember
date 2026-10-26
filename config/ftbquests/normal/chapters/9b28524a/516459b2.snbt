@@ -1,0 +1,25 @@
+{
+	x: 0.8333333333333333d,
+	y: 9.5d,
+	text: [
+		"A tier 5 Tartaric Gem.\n\nSee the Sanguine Scientiem for details."
+	],
+	dependencies: [
+		"489f82e1"
+	],
+	tasks: [
+		{
+			uid: "10b901dd",
+			type: "item",
+			items: [
+				{
+					id: "bloodmagic:soul_gem",
+					tag: {},
+					Damage: 4s
+				}
+			],
+			ignore_nbt: 1b
+		}
+	],
+	rewards: []
+}

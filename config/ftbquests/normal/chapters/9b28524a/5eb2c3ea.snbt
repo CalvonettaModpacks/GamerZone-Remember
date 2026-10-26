@@ -1,0 +1,34 @@
+{
+	title: "Rituals",
+	x: 6.8d,
+	y: 1.9d,
+	text: [
+		"Blood Magic has a lot of different rituals that perform tasks such as creating lava, growing crops, and damaging enemies.\n\nSee the Sanguine Scientiem for details."
+	],
+	dependencies: [
+		"f1f052a5"
+	],
+	tasks: [
+		{
+			uid: "f33081ef",
+			type: "item",
+			items: [
+				{
+					item: "bloodmagic:ritual_controller"
+				}
+			],
+			ignore_nbt: 1b
+		},
+		{
+			uid: "2fc88fd5",
+			type: "item",
+			items: [
+				{
+					item: "bloodmagic:ritual_stone 8"
+				}
+			],
+			ignore_nbt: 1b
+		}
+	],
+	rewards: []
+}

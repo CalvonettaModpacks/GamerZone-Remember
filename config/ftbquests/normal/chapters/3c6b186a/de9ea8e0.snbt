@@ -1,0 +1,71 @@
+{
+	title: "Fluid Reactor",
+	icon: "ic2:resource 1 14",
+	x: 2.1d,
+	y: 6.3d,
+	text: [
+		"Fluid Reactor is a continuation of regular Nuclear Reactor with some advantages and disadvantages.\n\n§8[§6Setup§8]§r\nTo form a Fluid Reactor, encase the Nuclear Reactor (6 Reactor Chambers) within a Reactor Pressure Vessel in a 5×5×5 box.\n\nAdd two Reactor Fluid Ports, one Reactor Redstone Port and Reactor Access Hatch. As Reactor is inside this structure, it can't be accessed directly anymore and all interactions with it are done via these special blocks.\n\n§8[§6How it works§8]§r\nUnlike Nuclear Reactor that outputs directly EU, Fluid Reactor generates §cHeat§r and uses this §cHeat§r to make §cHot Coolant§r which is the main output of this reactor.\n\nThis §cHot Coolant§r has to be cooled in some machine and put back into Reactor to maintain the cycle.\n\n§8[§6Heat Exchangers§8]§r\nTo cool §cHot Coolant§r it's recommended to use Heat Exchanger from Immersive Engineering. By cooling the §cHot Coolant§r it outputs §9Coolant§r for Reactor and §8Superheated Steam§r which can be pumped into IC2 Steam Turbine. Prepare a fast water source, for example, 2 Infinite Water Source from Nuclear Craft.\n\nOther heat exchangers are possible, but they'll require much more resources to build to the point it isn't worth it. For example, it'll require 135 Liquid Heat Exchangers from IC2 or 9 Heat Exchangers from Advanced Generators.\n\n§8[§6Recommended Setup§8]§r\nIt's recommended to use classical 7 quad Uranium rods setup from regular Nuclear Reactor, it produces almost as much Heat and is stable. This setup produces around §680k Rf/t§r, which is 5 times more than regular Nuclear Reactor with the same setup.\n\n§8[§4Warning§8]§r\nAs this modpack increases output of Nuclear Reactor by 10 times, it influenced Fluid Reactor's math calculations and recommended component setups you may find in the internet §4may produce excessive heat§r.\n\n§8[§7Misc§8]§r\n\\- The quest expects 20 Fluid Cells filled with IC2 Coolant.\n- More info can be found at https://wiki.industrial-craft.net/index.php?title=Fluid_reactor"
+	],
+	dependencies: [
+		"533c2a59",
+		"3a710203"
+	],
+	min_width: 300,
+	tasks: [
+		{
+			uid: "b5c01b20",
+			type: "item",
+			items: [
+				{
+					item: "ic2:resource 1 14"
+				}
+			],
+			count: 94L
+		},
+		{
+			uid: "632c81ef",
+			type: "item",
+			items: [
+				{
+					item: "ic2:te 1 25"
+				}
+			],
+			count: 2L
+		},
+		{
+			uid: "d107c0c6",
+			type: "item",
+			items: [
+				{
+					item: "ic2:te 1 26"
+				}
+			]
+		},
+		{
+			uid: "d6e368cc",
+			type: "item",
+			items: [
+				{
+					item: "ic2:te 1 23"
+				}
+			]
+		},
+		{
+			uid: "5c12ad75",
+			type: "item",
+			items: [
+				{
+					tag: {
+						Fluid: {
+							Amount: 1000,
+							FluidName: "ic2coolant"
+						}
+					},
+					id: "ic2:fluid_cell"
+				}
+			],
+			count: 20L
+		}
+	],
+	rewards: []
+}

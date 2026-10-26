@@ -1,0 +1,27 @@
+{
+	title: "Archmage Blood Orb",
+	x: 16.800000000000004d,
+	y: 4.45d,
+	text: [
+		"Tier 5 Blood Orb. Stores a ton of life force."
+	],
+	dependencies: [
+		"3331d611"
+	],
+	tasks: [
+		{
+			uid: "81a8f233",
+			type: "item",
+			items: [
+				{
+					id: "bloodmagic:blood_orb",
+					tag: {
+						orb: "bloodmagic:archmage"
+					}
+				}
+			],
+			ignore_nbt: 1b
+		}
+	],
+	rewards: []
+}

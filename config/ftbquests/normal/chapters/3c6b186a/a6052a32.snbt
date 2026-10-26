@@ -1,0 +1,23 @@
+{
+	x: -0.5d,
+	y: 0.8333333333333333d,
+	text: [
+		"Stores §21 bucket§r of liquid but stackable."
+	],
+	dependencies: [
+		"b522c8b8"
+	],
+	tasks: [
+		{
+			uid: "515133d9",
+			type: "item",
+			items: [
+				{
+					item: "ic2:fluid_cell"
+				}
+			],
+			ignore_nbt: 1b
+		}
+	],
+	rewards: []
+}

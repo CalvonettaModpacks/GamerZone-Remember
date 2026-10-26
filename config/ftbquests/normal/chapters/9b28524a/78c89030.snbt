@@ -1,0 +1,23 @@
+{
+	x: 15.533333333333335d,
+	y: 7.116666666666667d,
+	text: [
+		"The Charging rune begins storing \"Charge,\" an internal value of the Blood Altar that can be seen using the Seer's Sigil. If the Blood Altar has enough Charge when it gets something to craft, it will use the required Charge and craft the item instantaneously."
+	],
+	dependencies: [
+		"3e08b4d3"
+	],
+	tasks: [
+		{
+			uid: "5f9ac6ff",
+			type: "item",
+			items: [
+				{
+					item: "bloodmagic:blood_rune 1 10"
+				}
+			],
+			ignore_nbt: 1b
+		}
+	],
+	rewards: []
+}

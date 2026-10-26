@@ -1,0 +1,31 @@
+{
+	title: "The Twilight Lich",
+	x: 3.1666666666666665d,
+	y: 0.5d,
+	text: [
+		"The Twilight Lich can be found inside his Lich Tower, a large compound with multiple branching towers found in the forest."
+	],
+	dependencies: [
+		"95b739d8"
+	],
+	tasks: [
+		{
+			uid: "b7c28337",
+			type: "item",
+			items: [
+				{
+					item: "twilightforest:trophy 1 1"
+				}
+			],
+			ignore_nbt: 1b
+		}
+	],
+	rewards: [
+		{
+			uid: "4db5cac6",
+			type: "item",
+			item: "twilightforest:twilight_sapling 1 4",
+			count: 4
+		}
+	]
+}

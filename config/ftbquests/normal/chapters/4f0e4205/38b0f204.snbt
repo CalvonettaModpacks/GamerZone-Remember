@@ -1,0 +1,33 @@
+{
+	title: "Troll Caves",
+	x: 7.166666666666667d,
+	y: 0.5d,
+	text: [
+		"The Troll Caves lie beneath the highlands. They consist of both tunnel-style caves and vast underground chambers. Your first destination is in the underground mushroom gardens. Inside a small obsidian vault, you'll find a chest holding the troll's treasure, namely the Magic Beans.\n\n§aNote§r:\nHaving the §eLamp of Cinders§r in your inventory lets you use creative flight in Twilight Forest."
+	],
+	dependencies: [
+		"7a3595e1",
+		"5956532f",
+		"d0bdab2e"
+	],
+	tasks: [
+		{
+			uid: "0b647605",
+			type: "item",
+			items: [
+				{
+					item: "twilightforest:lamp_of_cinders"
+				}
+			],
+			ignore_nbt: 1b
+		}
+	],
+	rewards: [
+		{
+			uid: "ea1755be",
+			type: "item",
+			item: "twilightforest:charm_of_life_2",
+			count: 4
+		}
+	]
+}

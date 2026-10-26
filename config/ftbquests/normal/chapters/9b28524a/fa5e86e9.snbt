@@ -1,0 +1,37 @@
+{
+	title: "Blood Magic",
+	icon: {
+		id: "guideapi:bloodmagic-guide",
+		tag: {
+			G-API_Category_Page: 0,
+			G-API_Category: 1,
+			G-API_Entry_Page: 0,
+			G-API_Page: 3,
+			G-API_Entry: "minecraft:guide.bloodmagic.entry.architect.bloodrune"
+		}
+	},
+	x: 1.1666666666666667d,
+	y: 1.5d,
+	text: [
+		"Welcome to Blood Magic!\n\nBlood Magic is a magic mod centered around gaining power from sacrifice.\n\nIt offers a lot of cool gadgets such as the §1Sigils§r, not to mention a variety of building blocks.\n\nThe §6Sanguine Scientiem §rcontains information on nearly all of Blood Magic, so for the most part, I'll be referring to that.\n\nBlood Magic contains crafting ingredients used in the late game."
+	],
+	size: 1.6666666666666667d,
+	rewards: [
+		{
+			uid: "73dae1b5",
+			type: "xp_levels",
+			xp_levels: 10
+		},
+		{
+			uid: "0cf0f5b9",
+			type: "item",
+			item: {
+				id: "minecraft:potion",
+				tag: {
+					Potion: "minecraft:regeneration"
+				}
+			}
+		}
+	],
+	tasks: []
+}

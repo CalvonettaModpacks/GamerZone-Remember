@@ -1,0 +1,37 @@
+{
+	title: "Blood Altar Tier 2",
+	icon: "bloodmagic:blood_rune",
+	x: 5.833333333333333d,
+	y: 3.1666666666666665d,
+	text: [
+		"See the Sanguine Scientiem for details."
+	],
+	dependencies: [
+		"6a6dc36e"
+	],
+	tasks: [
+		{
+			uid: "b54ff04b",
+			type: "item",
+			items: [
+				{
+					ForgeCaps: {
+						Parent: {
+							data: "runeBlood",
+							id: "ore"
+						}
+					},
+					id: "itemfilters:filter",
+					tag: {
+						display: {
+							Name: "Any runeBlood"
+						}
+					}
+				}
+			],
+			count: 8L,
+			ignore_nbt: 1b
+		}
+	],
+	rewards: []
+}

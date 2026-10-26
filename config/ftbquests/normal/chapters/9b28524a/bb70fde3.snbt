@@ -1,0 +1,23 @@
+{
+	x: 15.8d,
+	y: 1.9d,
+	text: [
+		"Used to activate all rituals.\n\nSee the Sanguine Scientiem for details."
+	],
+	dependencies: [
+		"3331d611"
+	],
+	tasks: [
+		{
+			uid: "8f58f691",
+			type: "item",
+			items: [
+				{
+					item: "bloodmagic:activation_crystal 1 1"
+				}
+			],
+			ignore_nbt: 1b
+		}
+	],
+	rewards: []
+}

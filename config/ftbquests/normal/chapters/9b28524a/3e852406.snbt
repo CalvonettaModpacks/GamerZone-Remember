@@ -1,0 +1,25 @@
+{
+	x: 0.8333333333333333d,
+	y: 5.5d,
+	text: [
+		"An upgrade to the Petty Tartaric Gem with more capacity.\n\nSee the Sanguine Scientiem for details."
+	],
+	dependencies: [
+		"d73a1891"
+	],
+	tasks: [
+		{
+			uid: "1e71a2b6",
+			type: "item",
+			items: [
+				{
+					id: "bloodmagic:soul_gem",
+					tag: {},
+					Damage: 1s
+				}
+			],
+			ignore_nbt: 1b
+		}
+	],
+	rewards: []
+}

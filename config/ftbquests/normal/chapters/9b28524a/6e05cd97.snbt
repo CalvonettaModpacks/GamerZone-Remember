@@ -1,0 +1,41 @@
+{
+	title: "Demonic Will",
+	icon: "bloodmagic:monster_soul",
+	x: 1.1666666666666665d,
+	y: 3.1666666666666665d,
+	text: [
+		"The first thing you'll need to do is craft up some Rudimentary Snares.\n\nThrow the snares at hostile mobs until white particles appear, and then kill them.\nIf you're lucky, they'll drop Demonic Will. If you have a Tartaric Gem in your inventory, the Demonic Will is used up to fill the gem.\n\nThe drop chance is affected by Looting."
+	],
+	dependencies: [
+		"fa5e86e9"
+	],
+	tasks: [
+		{
+			uid: "6c9e3019",
+			type: "item",
+			items: [
+				{
+					item: "bloodmagic:soul_snare"
+				}
+			],
+			ignore_nbt: 1b
+		},
+		{
+			uid: "c0f2a344",
+			type: "item",
+			items: [
+				{
+					item: "bloodmagic:monster_soul"
+				}
+			],
+			ignore_nbt: 1b
+		}
+	],
+	rewards: [
+		{
+			uid: "f889a720",
+			type: "xp_levels",
+			xp_levels: 10
+		}
+	]
+}

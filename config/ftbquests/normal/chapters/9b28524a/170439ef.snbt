@@ -1,0 +1,51 @@
+{
+	title: "Blood Altar Tier 3",
+	icon: "minecraft:glowstone",
+	x: 9.2d,
+	y: 3.1666666666666665d,
+	text: [
+		"See the Sanguine Scientiem for details."
+	],
+	dependencies: [
+		"f1f052a5"
+	],
+	tasks: [
+		{
+			uid: "5df3f9cc",
+			type: "item",
+			items: [
+				{
+					ForgeCaps: {
+						Parent: {
+							data: "runeBlood",
+							id: "ore"
+						}
+					},
+					id: "itemfilters:filter",
+					tag: {
+						display: {
+							Name: "Any runeBlood"
+						}
+					}
+				}
+			],
+			count: 20L,
+			ignore_nbt: 1b
+		},
+		{
+			uid: "439489f7",
+			type: "item",
+			items: [
+				{
+					item: "minecraft:sea_lantern"
+				},
+				{
+					item: "minecraft:glowstone"
+				}
+			],
+			count: 4L,
+			ignore_nbt: 1b
+		}
+	],
+	rewards: []
+}

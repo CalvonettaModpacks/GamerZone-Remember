@@ -1,0 +1,30 @@
+{
+	title: "Twilight Forest Animals",
+	x: 0.5d,
+	y: 1.8333333333333333d,
+	text: [
+		"§2Twilight Forest§r dimension has many different species. Some of them are used to craft eggs of other animals."
+	],
+	dependencies: [
+		"b42dc050"
+	],
+	tasks: [
+		{
+			uid: "2241c177",
+			type: "item",
+			items: [
+				{
+					item: "twilightforest:firefly"
+				}
+			]
+		}
+	],
+	rewards: [
+		{
+			uid: "7e29d201",
+			type: "item",
+			item: "twilightforest:twilight_sapling 1 8",
+			count: 2
+		}
+	]
+}

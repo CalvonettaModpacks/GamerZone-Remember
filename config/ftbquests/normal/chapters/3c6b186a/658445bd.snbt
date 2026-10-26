@@ -1,0 +1,38 @@
+{
+	icon: "ic2:te 1 64",
+	x: 12.1d,
+	y: 3.5d,
+	text: [
+		"Place items in the Scanner to scan them. §c§lThis will destroy the item.§r\nWrite item data to a §6Crystal Memory§r by pressing \"save\"."
+	],
+	dependencies: [
+		"0d64a022"
+	],
+	tasks: [
+		{
+			uid: "99300e6d",
+			type: "item",
+			items: [
+				{
+					item: "ic2:te 1 64"
+				}
+			]
+		},
+		{
+			uid: "45658e93",
+			type: "item",
+			items: [
+				{
+					id: "ic2:crystal_memory",
+					tag: {
+						Pattern: {
+							Count: 1
+						}
+					}
+				}
+			],
+			ignore_nbt: 1b
+		}
+	],
+	rewards: []
+}

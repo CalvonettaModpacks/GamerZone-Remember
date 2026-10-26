@@ -1,0 +1,45 @@
+{
+	title: "Steam Turbine",
+	icon: "ic2:te 1 18",
+	x: 2.1d,
+	y: 4.9d,
+	text: [
+		"Steam Turbine consumes §lonly§r §7IC2 Steam§r or §8IC2 Superheated Steam (SH Steam)§r and produces Kinetic Energy, it's use is to pair it with IC2 Fluid Reactors.\n\n§8[§6Setup§8]§r\nThe Steam Turbine (block) requires the Steam Turbine (item) and a Kinetic Generator to function.\n\n§8[§8Superheated Steam§8]§r\nWhen working with §8SH steam§r, place two Steam Turbines side-by-side and pump §8SH Steam§r into one of them. That turbine will process §8SH Steam§r and output regular §7Steam§r into adjacent Steam Turbine to process.\n\n§8[§7Steam§8]§r\nWhen the Steam Turbine runs on regular §7Steam§r it'll output §9Distilled water§r and §7IC2 'Exhaust' Steam§r. §7IC2 'Exhaust' Steam§r has almost no uses, so it's okay to ignore it. §9Distilled water§r has to be pumped out from the Turbine.\n\n§8[§cExplosions§8]§r\nWhen Turbine has no place to output §7Steam§r or §7'Exhaust' Steam§r it'll generate explosion particles and sounds. To maintain one's sanity it's suggested disabling explosion SFX in Settings."
+	],
+	dependencies: [
+		"3c0659d8"
+	],
+	min_width: 300,
+	tasks: [
+		{
+			uid: "0de26ddf",
+			type: "item",
+			items: [
+				{
+					item: "ic2:te 1 18"
+				}
+			]
+		},
+		{
+			uid: "4bac9279",
+			type: "item",
+			items: [
+				{
+					item: "ic2:crafting 1 36"
+				}
+			]
+		}
+	],
+	rewards: [
+		{
+			uid: "a276115a",
+			type: "item",
+			item: "ic2:te 1 18"
+		},
+		{
+			uid: "027965fd",
+			type: "item",
+			item: "ic2:crafting 1 36"
+		}
+	]
+}

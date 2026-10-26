@@ -1,0 +1,23 @@
+{
+	x: 15.033333333333335d,
+	y: 8.116666666666667d,
+	text: [
+		"What this rune does is it increases the number of processing ticks that can occur in a given period of time, specifically when it comes to the Displacement Rune and Charging Rune."
+	],
+	dependencies: [
+		"3e08b4d3"
+	],
+	tasks: [
+		{
+			uid: "c26d32f0",
+			type: "item",
+			items: [
+				{
+					item: "bloodmagic:blood_rune 1 9"
+				}
+			],
+			ignore_nbt: 1b
+		}
+	],
+	rewards: []
+}

@@ -1,0 +1,22 @@
+{
+	title: "§6⭑§r Catalysts §6⭑§r",
+	x: 11.3d,
+	y: 5.9d,
+	text: [
+		"§n§lHow do I pick a Catalyst§6⭑§r?\n\nThe §8[§dbase cost§8]§r of the Catalyst§6⭑§r must be higher than the §8[§7actual cost§8]§r of the item being replicated.\n\n§8[§dBase cost§8]§r - starting cost before modifiers.\n§8[§7Actual cost§8]§r - replication cost modified by player difficulty.\n\nMouse over an item to see “§8§7(actual)§r §d§obase mB UU§r”§r cost.\nA list of items with UU cost is in the Patchouli book “Enigmatica”.\n\n\n§n§lHow does difficulty§e✪§r§n§l affect the cost§r?\n\nEvery §2100§r points of Difficulty adds §210%%§r to the cost multiplier.\nIf you have less than 100 difficulty, replication is cheaper, but not below §20.1%%§r of the original cost.\nAt §21000§r difficulty the cost equals the base price (100%%).\n\n§8Each time your Replicator consumes matter, you gain “Spent UU Matter buckets” stat points. Get 1 or more points to complete this quest."
+	],
+	dependencies: [
+		"60b8a626"
+	],
+	min_width: 400,
+	tasks: [
+		{
+			uid: "7061f759",
+			type: "stat",
+			icon: "ic2:misc_resource 1 3",
+			stat: "stat.replications",
+			value: 1
+		}
+	],
+	rewards: []
+}

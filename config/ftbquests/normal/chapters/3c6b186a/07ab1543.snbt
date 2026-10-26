@@ -1,0 +1,27 @@
+{
+	title: "Reaching Max Difficulty",
+	icon: "minecraft:book",
+	x: 10.575d,
+	y: 6.449999999999999d,
+	text: [
+		"You can reach maximum §eDifficulty✪§r by replicating a large number of items.\n\nPress ▶ and follow the linked quest to learn what happens at max §eDifficulty✪§r."
+	],
+	dependencies: [
+		"b9f23f2f"
+	],
+	size: 0.75d,
+	tasks: [
+		{
+			uid: "8db6349e",
+			type: "checkmark",
+			disable_toast: 1b
+		}
+	],
+	rewards: [
+		{
+			uid: "9315f7c6",
+			type: "xp_levels",
+			xp_levels: 5
+		}
+	]
+}

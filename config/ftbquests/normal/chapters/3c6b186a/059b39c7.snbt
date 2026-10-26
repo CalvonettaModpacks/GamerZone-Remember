@@ -1,0 +1,22 @@
+{
+	x: 6.5d,
+	y: -0.5d,
+	text: [
+		"The Macerator can grind up various things, and double ores."
+	],
+	dependencies: [
+		"80c99c37"
+	],
+	tasks: [
+		{
+			uid: "9e55bc8d",
+			type: "item",
+			items: [
+				{
+					item: "ic2:te 1 47"
+				}
+			]
+		}
+	],
+	rewards: []
+}

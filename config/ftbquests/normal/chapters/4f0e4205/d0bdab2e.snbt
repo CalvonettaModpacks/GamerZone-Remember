@@ -1,0 +1,31 @@
+{
+	title: "The Hydra",
+	x: 5.833333333333333d,
+	y: 2.166666666666667d,
+	text: [
+		"The fearsome Hydra is found in a converted Hollow Hill in the middle of the Fire Swamp."
+	],
+	dependencies: [
+		"9329a551"
+	],
+	tasks: [
+		{
+			uid: "2b8fdc41",
+			type: "item",
+			items: [
+				{
+					item: "twilightforest:trophy 1 2"
+				}
+			],
+			ignore_nbt: 1b
+		}
+	],
+	rewards: [
+		{
+			uid: "bfcabfda",
+			type: "item",
+			item: "twilightforest:twilight_sapling 1 5",
+			count: 5
+		}
+	]
+}

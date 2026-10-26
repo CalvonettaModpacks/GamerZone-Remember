@@ -1,0 +1,27 @@
+{
+	x: -1.8d,
+	y: 2.2d,
+	text: [
+		"§6Additional ability:§r\n\nHold Analyzer and press [Side Inventory Key] to see breeding probabilities.\n\n§6Note:§r In this modpack (E2EE), all seeds are already scanned by default."
+	],
+	dependencies: [
+		"051ee94e"
+	],
+	tasks: [
+		{
+			uid: "99ed5d4c",
+			type: "item",
+			items: [
+				{
+					id: "ic2:cropnalyzer",
+					tag: {
+						charge: 100000.0d
+					}
+				}
+			],
+			ignore_damage: 1b,
+			ignore_nbt: 1b
+		}
+	],
+	rewards: []
+}

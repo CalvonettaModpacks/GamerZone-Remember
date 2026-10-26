@@ -1,0 +1,26 @@
+{
+	title: "Ritual: Le Vulcanos Frigius",
+	icon: "minecraft:book",
+	x: 8.0d,
+	y: 0.4d,
+	text: [
+		"Spawns cobblestone.\n\n§eImportant change:§r\nCan spawn about 30 different blocks when configured.\nTo configure:\n§2-§r Place an §nAlchemy Array§r on top of the Master Ritual Stone.\n§2-§r Right-click with one of the reagents on it."
+	],
+	dependencies: [
+		"5eb2c3ea",
+		"6a44d25c",
+		"f45af488"
+	],
+	tasks: [
+		{
+			uid: "34e0e88b",
+			type: "item",
+			items: [
+				{
+					item: "ic2:resource"
+				}
+			]
+		}
+	],
+	rewards: []
+}

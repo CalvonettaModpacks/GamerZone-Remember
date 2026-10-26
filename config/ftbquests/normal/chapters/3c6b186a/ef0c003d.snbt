@@ -1,0 +1,52 @@
+{
+	icon: "ic2:te 1 57",
+	x: 12.1d,
+	y: 0.8d,
+	text: [
+		"Early tool for automatic mining"
+	],
+	dependencies: [
+		"4d36c8e9"
+	],
+	tasks: [
+		{
+			uid: "071629aa",
+			type: "item",
+			items: [
+				{
+					item: "ic2:te 1 57"
+				}
+			],
+			ignore_nbt: 1b
+		},
+		{
+			uid: "0a54927d",
+			type: "item",
+			items: [
+				{
+					tag: {},
+					id: "ic2:scanner"
+				},
+				{
+					tag: {},
+					id: "ic2:advanced_scanner"
+				},
+				{
+					tag: {
+						charge: 100000.0d
+					},
+					id: "ic2:scanner"
+				},
+				{
+					tag: {
+						charge: 1000000.0d
+					},
+					id: "ic2:advanced_scanner"
+				}
+			],
+			ignore_damage: 1b,
+			ignore_nbt: 1b
+		}
+	],
+	rewards: []
+}

@@ -1,0 +1,27 @@
+{
+	title: "Crystal Memory",
+	x: 12.1d,
+	y: 5.0d,
+	text: [
+		"Crystal Memory shows the §dbase cost§r for saved items.\nItems that can be replicated have their §dbase cost§r as purple numbers in the tooltip, e.g., “§d100 mb UU§r”.\n\nActual replication cost varies with your §6difficulty§e✪§r level.\n\nHold the Crystal Memory with the recorded item and §nhit a Replicator§r.\n\n§8You will see up to 20 items that can be used as Catalysts based on the owner's replication cost. This is needed to complete the quest."
+	],
+	dependencies: [
+		"658445bd"
+	],
+	min_width: 400,
+	tasks: [
+		{
+			uid: "7d4454b8",
+			type: "custom",
+			title: "Hit a Replicator with written Crystal Memory",
+			icon: {
+				id: "ic2:crystal_memory",
+				tag: {}
+			},
+			tags: [
+				"crystal_memory_hit"
+			]
+		}
+	],
+	rewards: []
+}

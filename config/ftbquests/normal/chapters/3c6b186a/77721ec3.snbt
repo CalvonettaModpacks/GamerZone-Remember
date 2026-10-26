@@ -1,0 +1,32 @@
+{
+	icon: {
+		id: "ic2:mining_laser",
+		tag: {
+			charge: 2.0E7d
+		}
+	},
+	x: 8.5d,
+	y: 2.1d,
+	text: [
+		"The Mining Laser is a mining tool. It has several different modes you can choose from."
+	],
+	dependencies: [
+		"c26c77d4"
+	],
+	tasks: [
+		{
+			uid: "86c50a57",
+			type: "item",
+			items: [
+				{
+					id: "ic2:mining_laser",
+					tag: {},
+					Damage: 26s
+				}
+			],
+			ignore_damage: 1b,
+			ignore_nbt: 1b
+		}
+	],
+	rewards: []
+}

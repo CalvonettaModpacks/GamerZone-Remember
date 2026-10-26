@@ -1,0 +1,29 @@
+{
+	title: "Spawn Questing Ram",
+	x: 1.4d,
+	y: -0.4d,
+	text: [
+		"Spawn the §3Questing Ram§r by constructing a small structure, similar to how you would spawn Minecraft's Golems. Look up the §bSpawn Questing Ram§r Egg to view the recipe inside a Compact Machine.\n\n§8Note: The recipe in the Compact Machine is non-functional and is only for preview purposes.§r"
+	],
+	dependencies: [
+		"b42dc050"
+	],
+	dependency_requirement: "one_started",
+	size: 0.5d,
+	tasks: [
+		{
+			uid: "b6a5c668",
+			type: "checkmark",
+			icon: {
+				id: "minecraft:spawn_egg",
+				tag: {
+					EntityTag: {
+						id: "twilightforest:quest_ram"
+					}
+				}
+			},
+			disable_toast: 1b
+		}
+	],
+	rewards: []
+}

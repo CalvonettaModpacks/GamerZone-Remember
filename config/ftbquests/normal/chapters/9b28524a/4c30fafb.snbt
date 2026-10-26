@@ -1,0 +1,23 @@
+{
+	x: 12.5d,
+	y: 1.9d,
+	text: [
+		"Allows placement of Dusk Runes in addition to the 4 basic types.\n\nSee the Sanguine Scientiem for details."
+	],
+	dependencies: [
+		"4c883699"
+	],
+	tasks: [
+		{
+			uid: "d7973993",
+			type: "item",
+			items: [
+				{
+					item: "bloodmagic:ritual_diviner 1 1"
+				}
+			],
+			ignore_nbt: 1b
+		}
+	],
+	rewards: []
+}

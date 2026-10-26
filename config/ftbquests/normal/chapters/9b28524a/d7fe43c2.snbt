@@ -1,0 +1,23 @@
+{
+	x: 13.700000000000003d,
+	y: 7.116666666666667d,
+	text: [
+		"The Rune of Augmented Capacity functions similarly to the Rune of Capacity in the sense that it increases the capacity of both the main tank and the I/O tank of the Blood Altar.\nHowever, multiple runes on the same altar will begin to §lresonate §rwith each other, increasing the capacity exponentially the more there are."
+	],
+	dependencies: [
+		"3e08b4d3"
+	],
+	tasks: [
+		{
+			uid: "ad9a143f",
+			type: "item",
+			items: [
+				{
+					item: "bloodmagic:blood_rune 1 7"
+				}
+			],
+			ignore_nbt: 1b
+		}
+	],
+	rewards: []
+}

@@ -1,0 +1,24 @@
+{
+	title: "Blood Tank",
+	x: 4.0d,
+	y: 4.5d,
+	text: [
+		"Blood Tanks are initially small, but can be upgraded in the Blood Altar to have a very large capacity."
+	],
+	dependencies: [
+		"6a6dc36e"
+	],
+	tasks: [
+		{
+			uid: "a54505e5",
+			type: "item",
+			items: [
+				{
+					item: "bloodmagic:blood_tank"
+				}
+			],
+			ignore_nbt: 1b
+		}
+	],
+	rewards: []
+}

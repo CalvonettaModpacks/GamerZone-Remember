@@ -1,0 +1,38 @@
+{
+	icon: "ic2:te 1 51",
+	x: 4.5d,
+	y: 3.2d,
+	text: [
+		"The Block Cutting Machine can cut entire blocks into plates, and increase the Plank yield from Logs.\n\nHarder Block Cutting Blades cut harder blocks."
+	],
+	dependencies: [
+		"80c99c37"
+	],
+	tasks: [
+		{
+			uid: "63122684",
+			type: "item",
+			items: [
+				{
+					item: "ic2:te 1 51"
+				}
+			]
+		},
+		{
+			uid: "fb00e3dc",
+			type: "item",
+			items: [
+				{
+					item: "ic2:block_cutting_blade"
+				},
+				{
+					item: "ic2:block_cutting_blade 1 1"
+				},
+				{
+					item: "ic2:block_cutting_blade 1 2"
+				}
+			]
+		}
+	],
+	rewards: []
+}

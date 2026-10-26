@@ -1,0 +1,27 @@
+{
+	title: "Master Blood Orb",
+	x: 13.533333333333335d,
+	y: 4.45d,
+	text: [
+		"Tier 4 Blood Orb. Stores a lot of life force."
+	],
+	dependencies: [
+		"4c883699"
+	],
+	tasks: [
+		{
+			uid: "afad14da",
+			type: "item",
+			items: [
+				{
+					id: "bloodmagic:blood_orb",
+					tag: {
+						orb: "bloodmagic:master"
+					}
+				}
+			],
+			ignore_nbt: 1b
+		}
+	],
+	rewards: []
+}

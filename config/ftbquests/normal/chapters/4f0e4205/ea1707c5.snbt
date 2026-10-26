@@ -1,0 +1,36 @@
+{
+	title: "Final Plateau",
+	icon: "twilightforest:castle_brick",
+	x: 8.5d,
+	y: 0.5d,
+	text: [
+		"After claiming Lamp of Cinders you can finally access the last district."
+	],
+	dependencies: [
+		"38b0f204"
+	],
+	tasks: [
+		{
+			uid: "822dd9d0",
+			type: "interaction",
+			title: "⚑ Touch {tile.twilightforest.CastleBrick.0.name}",
+			icon: {
+				id: "twilightforest:castle_brick",
+				tag: {
+					ench: [
+						{}
+					]
+				}
+			},
+			match_type: "block_id",
+			match: "twilightforest:castle_brick"
+		}
+	],
+	rewards: [
+		{
+			uid: "35a8a473",
+			type: "item",
+			item: "twilightforest:cube_of_annihilation"
+		}
+	]
+}

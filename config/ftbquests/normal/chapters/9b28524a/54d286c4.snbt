@@ -1,0 +1,23 @@
+{
+	x: 2.5d,
+	y: 4.166666666666666d,
+	text: [
+		"Uses Demonic Will to craft certain recipes.\n\nSee the Sanguine Scientiem for details."
+	],
+	dependencies: [
+		"6e05cd97"
+	],
+	tasks: [
+		{
+			uid: "ae8d72d3",
+			type: "item",
+			items: [
+				{
+					item: "bloodmagic:soul_forge"
+				}
+			],
+			ignore_nbt: 1b
+		}
+	],
+	rewards: []
+}

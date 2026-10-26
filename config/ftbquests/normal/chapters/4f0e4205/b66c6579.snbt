@@ -1,0 +1,34 @@
+{
+	title: "The chapter is complete!",
+	icon: "minecraft:book",
+	x: 9.75d,
+	y: 2.25d,
+	text: [
+		"Complete all the quests in this chapter to receive a trophy."
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"3a3b705b",
+		"d658e2ba",
+		"6be282e4",
+		"f5163b70",
+		"9fe9e32e",
+		"5e50b7d9",
+		"14296664",
+		"95b739d8",
+		"1ae426b4",
+		"ea1707c5",
+		"d0bdab2e",
+		"38b0f204",
+		"7a3595e1",
+		"da09753d",
+		"9329a551",
+		"5956532f",
+		"b42dc050",
+		"dab92267",
+		"68901b6f"
+	],
+	size: 1.5d,
+	rewards: [],
+	tasks: []
+}

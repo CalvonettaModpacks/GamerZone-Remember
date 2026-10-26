@@ -1,0 +1,30 @@
+{
+	title: "Twilight Knight Stronghold",
+	x: 4.5d,
+	y: -1.1666666666666667d,
+	text: [
+		"Beneath the Dark Forest (and sometimes the surrounding areas) lay the fallen Strongholds of the Twilight Knights. The lower levels of the strongholds are completely sealed, and before you enter, you will have to complete a small initiation ceremony. You will have to find a specific room in the upper ruins of the stronghold. The room contains a Trophy Pedestal and a shallow pit blocked by Stronghold Shields. Placing a trophy from one of the previous bosses on the pedestal will remove the shield and allow access to the lower levels."
+	],
+	dependencies: [
+		"da09753d"
+	],
+	tasks: [
+		{
+			uid: "eb9131f3",
+			type: "item",
+			items: [
+				{
+					item: "twilightforest:trophy 1 4"
+				}
+			],
+			ignore_nbt: 1b
+		}
+	],
+	rewards: [
+		{
+			uid: "c5b1a895",
+			type: "item",
+			item: "twilightforest:block_and_chain"
+		}
+	]
+}

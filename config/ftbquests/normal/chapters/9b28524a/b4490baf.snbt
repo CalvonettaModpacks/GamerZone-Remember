@@ -1,0 +1,59 @@
+{
+	title: "Living Armor",
+	icon: {
+		id: "bloodmagic:living_armour_chest",
+		tag: {}
+	},
+	x: 2.5d,
+	y: 6.833333333333333d,
+	text: [
+		"Gains a variety of bonuses and traits whilst worn, depending on what you are doing. These bonuses can level up and become more powerful. This armor is enchantable.\nAfter completing this quest, mobs will spawn with this armor set sometimes."
+	],
+	dependencies: [
+		"3088e482"
+	],
+	tasks: [
+		{
+			uid: "f630098b",
+			type: "item",
+			items: [
+				{
+					item: "bloodmagic:living_armour_helmet"
+				}
+			],
+			ignore_nbt: 1b
+		},
+		{
+			uid: "6e792140",
+			type: "item",
+			items: [
+				{
+					id: "bloodmagic:living_armour_chest",
+					tag: {}
+				}
+			],
+			ignore_nbt: 1b
+		},
+		{
+			uid: "b9046b56",
+			type: "item",
+			items: [
+				{
+					item: "bloodmagic:living_armour_leggings"
+				}
+			],
+			ignore_nbt: 1b
+		},
+		{
+			uid: "538d0905",
+			type: "item",
+			items: [
+				{
+					item: "bloodmagic:living_armour_boots"
+				}
+			],
+			ignore_nbt: 1b
+		}
+	],
+	rewards: []
+}
